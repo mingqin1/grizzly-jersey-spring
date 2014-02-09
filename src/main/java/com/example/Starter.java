@@ -4,16 +4,18 @@
  */
 package com.example;
 
-
-
 import java.io.IOException;
-
-
 import org.glassfish.grizzly.http.server.HttpServer;
 import org.glassfish.grizzly.http.server.NetworkListener;
 import org.glassfish.grizzly.servlet.ServletRegistration;
 import org.glassfish.grizzly.servlet.WebappContext;
 import com.sun.jersey.spi.spring.container.servlet.SpringServlet;
+
+/**
+ *
+ * @author Ming Qin <ming.qin@live.com>
+ * 
+ */
 
 public class Starter {
 
